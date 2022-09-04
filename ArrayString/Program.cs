@@ -13,4 +13,16 @@ if (j == 0)
 }
 else
 {
+    string[] ShortArray = new string[j];
+    int i = 0;
+    int k = 0;
+    while(i < FullArray.Length)
+    {
+        if (FullArray[i].Length <= 3 )
+        {
+        ShortArray[k] = FullArray[i];
+        k++;
+        }
+        i++;
+    }
 }
