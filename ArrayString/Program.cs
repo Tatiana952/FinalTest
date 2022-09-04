@@ -6,3 +6,11 @@ for (int i = 0; i < FullArray.Length; i++)
 {
     if (FullArray[i].Length <= 3 ) j++;
 }
+
+if (j == 0)
+{
+    Console.WriteLine();
+}
+else
+{
+}
