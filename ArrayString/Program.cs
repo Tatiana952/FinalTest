@@ -25,4 +25,6 @@ else
         }
         i++;
     }
+    Console.WriteLine();
+    Console.WriteLine("[" + string.Join(", ", ShortArray) + "]");
 }
